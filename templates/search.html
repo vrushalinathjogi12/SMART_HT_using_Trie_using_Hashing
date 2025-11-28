@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SMART-HT Search</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <div class="search-container">
+        <h2>SMART-HT Search Engine</h2>
+        <h1>Advanced Search and Indexing System using Trie</h1>
+         <h1>for Keyword Indexing and Hash Table for Document Retrieval.</h1>
+        <input type="text" id="search-box" placeholder="Search documents..." autocomplete="off">
+        <ul id="autocomplete-list"></ul>
+        <div id="results"></div>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/autocomplete.js') }}"></script>
+</body>
+</html>

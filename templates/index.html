@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="search-box">
+    <form action="/search-ui" method="get">
+        <input type="text" name="q" placeholder="Search documents or keywords..." />
+        <button type="submit">Search</button>
+    </form>
+    <p><a href="/search-ui">Go to search UI (autocomplete + live)</a></p>
+</div>
+{% endblock %}

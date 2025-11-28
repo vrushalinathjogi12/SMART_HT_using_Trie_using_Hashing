@@ -1,0 +1,12 @@
+Flask==3.0.3
+flask-cors==4.0.1
+ujson==5.10.0
+numpy==1.26.4
+# scikit-learn optional (not required for basic TF-IDF implementation below)
+scikit-learn==1.5.1
+python-dotenv==1.0.1
+Flask>=2.3
+Jinja2>=3.1
+Werkzeug>=2.3
+numpy
+scikit-learn
